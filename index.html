@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<html>
+  <head>
+    <!-- Google fonts, remove or replace! -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;800&family=Nunito:ital,wght@0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Charles Bugayer -</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- External libs -->
+    <!-- 	<script  src="js/vendor/kates-utilities.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
+
+    <!-- Your code in here -->
+    <script src="brushes.js"></script>
+
+    <!-- Sets up all the swatches -->
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Charles Bugayer's Brushes</h1>
+    </header>
+
+    <div id="canvas-holder"></div>
+    <div id="controls">
+      <div id="brush-desc">-current brush-</div>
+      <div class="row">
+        <div id="buttons"></div>
+        <div class="">
+          
+          <input type="color" id="color0" />
+          <input type="color" id="color1" />
+          <input type="range" id="size" min=0 max=1 step=".05" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

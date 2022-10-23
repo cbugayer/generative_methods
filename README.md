@@ -1,4 +1,4 @@
-# A3: Drawing Tools
+# A3: Drawing Tool
 
 ## Your name
 Charles Bugayer
